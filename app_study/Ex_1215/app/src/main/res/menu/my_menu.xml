@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- res - new - Directory 이름은 무족건 menu로 해야 menu resourse 파일생성 가능 -->
+    <item android:id="@+id/menu1"
+          android:title="이메일"/>
+
+    <item android:id="@+id/menu2"
+          android:title="저장"/>
+
+    <item android:id="@+id/menu3"
+          android:title="종료"/>
+
+
+</menu>

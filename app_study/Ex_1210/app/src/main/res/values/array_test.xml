@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- values 에서 new - values resource file-->
+
+    <!--String[] test1 = {"홍길동", "박길동", "오길동"};-->
+    <string-array name="test1">
+        <item>홍길동</item>
+        <item>박길동</item>
+        <item>오길동</item>
+    </string-array>
+
+    <string-array name="test2">
+
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+        <item>item5</item>
+        <item>item6</item>
+        <item>item7</item>
+        <item>item8</item>
+        <item>item9</item>
+        <item>item10</item>
+
+        <!-- 다중커서 : alt + shift + 클릭하면 커서가 계속늘어남 -->
+        <!-- 자동정렬 ctrl + alt + i -->
+    </string-array>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListViewActivity"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/mylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:divider="#00000000"
+        android:scrollbars="none"
+        android:transcriptMode="alwaysScroll"
+        />
+        <!-- divider 리스트 사이의 줄 -->
+        <!-- transcripMoee : 마지막으로 추가된 값의 위치만큼 스크롤을 자동으로 갱신-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et"
+        android:inputType="text"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:id="@+id/addBtn"/>
+
+
+
+</LinearLayout>

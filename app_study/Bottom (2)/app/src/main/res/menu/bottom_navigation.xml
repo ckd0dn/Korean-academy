@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="홈" />
+
+    <item
+        android:id="@+id/area"
+        android:icon="@drawable/area"
+        android:title="지역별 맛집" />
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:title="검색" />
+
+    <item
+        android:id="@+id/my_restaurant"
+        android:icon="@drawable/food"
+        android:title="나의 맛집"/>
+
+</menu>

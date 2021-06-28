@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 다이어로그는 표시할 수 있는 최소한의 사이즈로 표시하기 때문에
+     wrap이 아닌 250dp로 지정해줌-->
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher_round"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="토스트"
+        android:id="@+id/btn1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="닫기"
+       android:id="@+id/btn2"/>
+</LinearLayout>

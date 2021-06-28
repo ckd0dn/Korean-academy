@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#D7D7D8"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1~30사이의 숫자를 생각하세요"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:background="#8C8B8A"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/show_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="04 05 06 07 12\n13 14 15 20 21\n22 23 28 29 30"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linear"
+            android:visibility="visible">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="yes"
+                android:background="#B2BABA"
+                android:layout_marginRight="10dp"
+                android:id="@+id/btn_yes"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="no"
+                android:background="#B2BABA"
+                android:id="@+id/btn_no"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="다시하기"
+            android:id="@+id/btn_restart"
+            android:background="#B2BABA"
+            android:visibility="gone"/>
+
+    </FrameLayout>
+
+</LinearLayout>

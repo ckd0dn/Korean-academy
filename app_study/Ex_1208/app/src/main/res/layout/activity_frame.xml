@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrameActivity"
+    android:padding="20dp">
+
+    <!-- 안드로이드 단위
+         dp:device independent pixel(디바이스의 독립적인 픽셀값)
+         안드로이드는 다양한 해상도의 기종을 고려하여
+         dp단위를 쓰도록 권장 -->
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#aaf"
+        android:text="안녕"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#f00"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="반가워"
+        android:textColor="#fff"
+        android:paddingLeft="30dp"
+        android:paddingTop="30dp"/>
+
+    <!--layout_gravity : 해당 속성을 포함하고 있는 뷰를
+        통째로 이동시키는 것-->
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#8ac"
+        android:textColor="#aaf"
+        android:layout_gravity="right|bottom"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#77E6C6"
+        android:text="내용"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+    <!-- gravity 내용물의 속성을 정렬 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="120dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="btn1"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="btn2"/>
+
+        <!-- ctrl + d 복사-->
+    </LinearLayout>
+</FrameLayout>

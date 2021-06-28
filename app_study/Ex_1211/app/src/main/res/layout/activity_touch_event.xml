@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TouchEventActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과:"
+        android:textSize="30dp"
+        android:id="@+id/txt_view"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Catch Event"
+        android:id="@+id/event_btn"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#9FF43C"
+        android:text="no event"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/box"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>
